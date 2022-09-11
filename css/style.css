@@ -15,6 +15,7 @@
 }
 
 @font-face {
+
 	src: url('../fonts/static/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
 	font-family: 'Open Sans';
 	font-weight: 600;
@@ -46,17 +47,12 @@ body {
 }
 h2 {
 	color: #585858;
-	/* Хотя в макете цвет текста заголовков и других элементов достигается прозрачностью, в браузере такое значение даст другой результат. Другой вариант: взять цвет в фотошопе пипеткой. */
 	margin: 0;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	font-size: 42px;
 	line-height: 55px;
 	text-transform: uppercase;
-}
-
-h3 {
-	margin: 0;
 }
 
 p {
@@ -183,14 +179,14 @@ p {
 	width: 224px;
 	height: 46px;
 	color: white;
-	background-color: red;
+	background-color: rgb(255, 0, 0);
 }
 
 .int-link a {
     box-sizing: border-box;
     display: inline-block;
     width: 227px;
-    padding: 16px 0;
+    padding: 11px 0;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
@@ -259,6 +255,8 @@ p {
 		.botom_line hr {
 			max-width: 1249px;
 		}
+
+		/*------------------------------------------------*/
 
 			.feture_prod_text {
 			width: 100%;
@@ -338,7 +336,7 @@ p {
 			object-fit: cover;
 			}
 
-			
+			/*------------------------------------------------*/
 				.meet_our_team_text {
 				width: 100%;
 				text-align: left;
@@ -348,7 +346,7 @@ p {
 				.botom_line_meet_team {
 				width: 122px;
     			height: 3px;
-    			`background-color: #ff2d2d;
+    			background-color: #ff2d2d;
     			border: none;
     			position: relative;
     			right: 45%;
@@ -480,6 +478,8 @@ p {
 					height: 214px;
 					background-color: #d4dce680;
 				}
+
+				/*------------------------------------------------*/
 					.subscribe{
 						background-color: black;
 
@@ -621,7 +621,7 @@ p {
 					.feedback_button:hover {
 						color: black;
 					}
-
+/*------------------------------------------------*/
 					.contact {
 						position: relative;
 					    color: #e0e0e0;
@@ -632,7 +632,7 @@ p {
 					    max-width: 411px;
 					}
 
-					}
+					
 					.contact h2 {
 						color: white;
 						margin-top: 132px;
@@ -662,10 +662,10 @@ p {
 						background-color: #2c2c2c;
 }
 
-
+/*------------------------------------------------*/
 					.footer {
 						    background-color: #2c2c2c;
-    						padding: 0 1vw;lack;
+    						padding: 0 1vw;
 					}
 
 					.footer__content {
@@ -751,7 +751,7 @@ p {
 		width: 200px;
 	}
 	.feedback__mail {
-		widt/h: 250px;
+		width: 250px;
 	}
 	.team__selected-photo {
 	margin-bottom: 44px;
